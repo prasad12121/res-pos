@@ -31,7 +31,7 @@ export const LoginPage = () => {
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100">
       <Card className="w-full max-w-sm">
-        <h2 className="text-2xl font-bold mb-4">Login</h2>
+        <h2 className="text-2xl font-bold mb-4">Login Page</h2>
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <Input
             name="email"
