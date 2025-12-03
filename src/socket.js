@@ -4,6 +4,7 @@ const API_URL = import.meta.env.VITE_API_URL;
 
 const socket = io(`${API_URL}`, {
   autoConnect: true,
+  transports: ["websocket"],
 });
 
 export default socket;
